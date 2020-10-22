@@ -1,6 +1,6 @@
-# USF MAGICS Lab
+# MAGICS Lab
 
-Hello world :-)
+Welcome to the MAGICS Lab at the University of San Francisco. We are a research lab that focuses on **M**achine Learning, **A**I, **G**ame **I**ntelligence, and **C**omputing at **S**cale.
 
 ## Who are we?
 The MAGICS LAB was founded in 2018 by Drs. Brizan (Computer Science), Intrevado (Data Science), and Malensek (Computer Science) at the University of San Francisco. We meet weekly with undergraduate and graduate students to work on applied research.
