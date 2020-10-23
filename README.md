@@ -2,7 +2,7 @@
 
 Welcome to the MAGICS Lab at the University of San Francisco. We are a research lab that focuses on **M**achine Learning, **A**rtificial Intelligence, **G**ame **I**ntelligence, and **C**omputing at **S**cale.
 
-In Fall of 2020, we meet each week on Tuesday during dead hour from 12:00-12:45pm.
+**Meetings**: In Fall of 2020, we meet each week on Tuesday during dead hour from 12:00-12:45pm.
 
 Meetings are open to the public and we encourage anyone to join: beginners, practitioners, researchers... all are welcome! Our meetings generally revolve around project updates, discussions, short tutorials, and coverage of the latest research in our fields of study.
 
