@@ -1,6 +1,6 @@
 # MAGICS Lab
 
-Welcome to the MAGICS Lab at the University of San Francisco. We are a research lab that focuses on **M**achine Learning, **A**I, **G**ame **I**ntelligence, and **C**omputing at **S**cale.
+Welcome to the MAGICS Lab at the University of San Francisco. We are a research lab that focuses on **M**achine Learning, **A**rtificial Intelligence, **G**ame **I**ntelligence, and **C**omputing at **S**cale.
 
 In Fall of 2020, we meet each week on Tuesday during dead hour from 12:00-12:45pm.
 
