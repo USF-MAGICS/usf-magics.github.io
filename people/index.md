@@ -6,7 +6,7 @@ People make the world go round... or the lab run. In the MAGICS Lab, we are:
 
 * David Guy Brizan (dgbrizan@usfca.edu)
 * Paul Intrevado (on leave)
-* Matthew Malensek
+* Matthew Malensek (mmalensek@usfca.edu)
 
 ## Research Assistants & Volunteers (Fall 2020)
 
@@ -18,7 +18,7 @@ People make the world go round... or the lab run. In the MAGICS Lab, we are:
 * Isha Singh
 * Jenny Tang
 
-## Students
+## Students (Fall 2020)
 
 * Aditya Dixit
 * Arturo Galvan-Alarcon
@@ -26,10 +26,12 @@ People make the world go round... or the lab run. In the MAGICS Lab, we are:
 
 ## Lab Alumni
 
-* Nikhil Barapatre
+* [Nikhil Barapatre](https://www.linkedin.com/in/nikhilbarapatre/)
 * Anant Bhatia
-* Jennifer Cruz Hernandez
-* Kai Middlebrook
+* [Jennifer Cruz Hernandez](https://www.linkedin.com/in/jjcruzhernandez/)
+* [Pezanne Khambatta](https://www.linkedin.com/in/pezanne/)
+* [Kai Middlebrook](https://www.linkedin.com/in/kaimiddlebrook/)
+* Tuethu "Terry" Tran
 * Andrew Wang
-* Liang "Leon" Wang
+* [Liang "Leon" Wang](https://www.linkedin.com/in/leon-wang-a29034126/)
 * Li "Leslie" Zheng
