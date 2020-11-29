@@ -1,5 +1,7 @@
 # People
 
+People make the world go round... or the lab run. This is a list of the people in the lab.
+
 ## Lab Directors
 
 * David Guy Brizan
