@@ -4,7 +4,7 @@ People make the world go round... or the lab run. In the MAGICS Lab, we are:
 
 ## Lab Directors
 
-* David Guy Brizan (dgbrizan@usfca.edu | [@davidguybrizan](https://twitter.com/davidguybrizan))
+* David Guy Brizan (dgbrizan@usfca.edu)
 * Paul Intrevado (on leave)
 * Matthew Malensek
 
