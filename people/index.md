@@ -8,7 +8,7 @@ People make the world go round... or the lab run. In the MAGICS Lab, we are:
 * Paul Intrevado (on leave)
 * Matthew Malensek
 
-## Research Assistants & Volunteers - Current (Fall 2020)
+## Research Assistants & Volunteers (Fall 2020)
 
 * Ashwini Badgujar
 * Aditya Dixit
