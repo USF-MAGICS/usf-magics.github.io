@@ -1,6 +1,6 @@
 # People
 
-People make the world go round... or the lab run. This is a list of the people in the lab.
+People make the world go round... or the lab run. In the MAGICS Lab, we are:
 
 ## Lab Directors
 
@@ -10,6 +10,7 @@ People make the world go round... or the lab run. This is a list of the people i
 
 ## Research Assistants & Volunteers - Current (Fall 2020)
 
+* Ashwini Badgujar
 * Aditya Dixit
 * Kenny Dong
 * Arturo Galvan-Alarcon
@@ -22,7 +23,6 @@ People make the world go round... or the lab run. This is a list of the people i
 
 ## Lab Alumni
 
-* Ashwini Badgujar
 * Nikhil Barapatre
 * Anant Bhatia
 * Jennifer Cruz Hernandez
