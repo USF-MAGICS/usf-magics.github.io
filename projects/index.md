@@ -1,5 +1,7 @@
 # Projects
 
+The following projects are under active development.
+
 ## Agami: Scalable Streaming Visualization
 
 (Collaboration with the USF [VGL](https://vgl.cs.usfca.edu))
@@ -15,5 +17,7 @@ loads.
 
 **Publications**: Lu et al. *Agami: Scalable Visual Analytics over Multidimensional Data Streams*. Proceedings of the 7th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT) 2020.
 
+
+## Archived Projects
 
 
