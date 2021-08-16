@@ -22,4 +22,8 @@ loads.
 
 ## Archived Projects
 
+The following projects are no longer under active development, but have open source releases and are often are used as the basis for future work.
+
+* [Scalable NIO](https://github.com/USF-MAGICS/scalable-nio) - high-performance, non-blocking server for scalable communications. Project lead: Chirag Jain.
+
 
