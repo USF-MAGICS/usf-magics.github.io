@@ -4,7 +4,7 @@ The following projects are under active development.
 
 ## Agami: Scalable Streaming Visualization
 
-<img src="agami-ss.png" width="20%" style="float: right"/>
+<a href="agami-ss.png"><img src="agami-ss.png" class="proj_thumb"/></a>
 
 (Collaboration with the USF [VGL](https://vgl.cs.usfca.edu))
 
