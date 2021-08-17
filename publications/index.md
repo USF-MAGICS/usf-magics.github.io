@@ -1,6 +1,8 @@
 # Publications
 
+The following material is provided to promote timely dissemination of scholarly work. Contact the individual copyright holders for information regarding distribution or licensing.
+
 * Mingxin Lu, Edmund Wong, Daniel Barajas, Xiaochen Li, Mosopefoluwa Ogundipe, Nate Wilson, Pragya Garg, Alark Joshi, and Matthew Malensek. *Agami: Scalable Visual Analytics over Multidimensional Data Streams*. Proceedings of the 7th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies. 2020.
 * Walid Budgaga, Matthew Malensek, Sangmi Lee Pallickara, and Shrideep Pallickara. *Concerto: Leveraging Ensembles for Timely, Accurate Model Training Over Voluminous Datasets*. Proceedings of the 7th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies. 2020.
-* Daniel Rammer, Thilina Buddhika, Matthew Malensek, Shrideep Pallickara, and Sangmi Lee Pallickara. *Enabling Fast Exploratory Analyses Over Voluminous Spatiotemporal Data Using Analytical Engines*. IEEE Transactions on Big Data. DOI: 10.1109/TBDATA.2019.2939834
-* Naman Shah, Matthew Malensek, Harshil Shah, Shrideep Pallickara, and Sangmi Lee Pallickara. *Scalable Network Analytics for Characterization of Outbreak Influence in Voluminous Epidemiology Datasets*. Concurrency and Computation: Practice and Experience 31.7 (October 2019), pp. e4998. DOI: 10.1002/cpe.4998
+* Daniel Rammer, Thilina Buddhika, Matthew Malensek, Shrideep Pallickara, and Sangmi Lee Pallickara. *Enabling Fast Exploratory Analyses Over Voluminous Spatiotemporal Data Using Analytical Engines*. IEEE Transactions on Big Data.
+* Naman Shah, Matthew Malensek, Harshil Shah, Shrideep Pallickara, and Sangmi Lee Pallickara. *Scalable Network Analytics for Characterization of Outbreak Influence in Voluminous Epidemiology Datasets*. Concurrency and Computation: Practice and Experience 31.7 (October 2019), pp. e4998.
