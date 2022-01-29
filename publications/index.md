@@ -23,7 +23,7 @@ The following material is provided to promote timely dissemination of scholarly 
 
 * Daniel Rammer, Thilina Buddhika, Matthew Malensek, Shrideep Pallickara, and Sangmi Lee Pallickara. *[Enabling Fast Exploratory Analyses Over Voluminous Spatiotemporal Data Using Analytical Engines](https://par.nsf.gov/servlets/purl/10176991)*. IEEE Transactions on Big Data.
 * Naman Shah, Matthew Malensek, Harshil Shah, Shrideep Pallickara, and Sangmi Lee Pallickara. *[Scalable Network Analytics for Characterization of Outbreak Influence in Voluminous Epidemiology Datasets](https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.4998?casa_token=7gpueOXN510AAAAA:3vXfSP42L7gdwRY_md00QpP7ck7jTrsE2l8JxAH7pw0Uba9_nSoVUV_2DqvrPCHqgdf_DGt3o1rjLxw)*. Concurrency and Computation: Practice and Experience 31.7 (October 2019), pp. e4998.
-* Paul Intrevado, Tuo Sun, Allison Wong, and David Guy Brizan. Quantum Criticism: Exploring Sentiment of Named Entities in News Articles*.
+* Paul Intrevado, Tuo Sun, Allison Wong, and David Guy Brizan. *Quantum Criticism: Exploring Sentiment of Named Entities in News Articles*.
 
 ## 2018
 
