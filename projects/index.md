@@ -27,8 +27,8 @@ loads.
 Conceived by [Ted Gioia](https://theodoregioia.com/), Quantum Criticism is an umbrella of projects around news data and analysis. This includes sub-projects:
 
 * Core QC -- collecting the text of digital print articles from various news sources, including the Atlantic, the BBC, Breitbart News, Fox News, NY Times, Reuters, Slate Magazine and others. These articles are analysed for sentiment on an article level, paragaraph level and sentence level.
-* News KG -- a searchable knowledge graph of news articles in the QC database
-* Perspective -- a project to determine the various perspectives (eg. political or demographic interests) of a news story as reported in different sources.
+* News KG -- a searchable knowledge graph of news articles in the QC database, published in IEEE VIS by Evelyn Matson, Daniel Barajas, Jose Corella, and David Guy Brizan.
+* Perspective -- a new sub-project to determine the various perspectives (eg. political or demographic interests) of a news story as reported in different sources. Parisa Hemmati, Nikhil Matta, Brian Sisney and David Guy Brizan are working on this.
 
 **Publications**:
 
@@ -36,11 +36,30 @@ Conceived by [Ted Gioia](https://theodoregioia.com/), Quantum Criticism is an um
 * Badgujar et al. [QUANTUM CRITICISM: AN ANALYSIS OF POLITICAL NEWS REPORTING](https://www.academia.edu/download/63879929/7220mlaij0120200710-26340-vo1hwc.pdf). Machine Learning and Applications: An International Journal (MLAIJ) Vol 7, No. 1/2, June 2020.
 * Matson et al. Visualising the News. IEEE VIS Workshop 2021.
 
+## Fire Progression
+
+Can you predict the path of a wildfire? We think we can... using a deep neural network and lots of historical data. If successful, this could give people in danger enough time to leave a fire-affected area. The "we" in this case are:
+
+* Ashwini Badgujar
+* Milton Carreno
+* Olga Kondratenko
+* Brian Sisney
+* Li “Leslie” Zheng (former)
+* David Guy Brizan
+* Paul Intrevado
+* AJ Purdy
+* David Saah
+
+## Conversational Styles
+
+What makes one speaker sound polite and another person sound aggressive? It's probably the speaker's conversational style -- their pace, pitch, the words they use. In this project, Rashmi Nagpal, Faaz Arshad and David Guy Brizan investigate whether the conversational styles are tied to demographics like gender, education, etc.
+
 
 ## Archived Projects
 
 The following projects are no longer under active development, but have open source releases and are often are used as the basis for future work.
 
+* [Smile Types](https://github.com/lwang89/PredictingSmileTypes) - predicting fake vs. real smiles... with 100% accuracy! Project leaders: Liang "Leon" Wang, Beste F. Yuksel and David Guy Brizan.
 * [Scalable NIO](https://github.com/USF-MAGICS/scalable-nio) - high-performance, non-blocking server for scalable communications. Project lead: Chirag Jain.
 
 
