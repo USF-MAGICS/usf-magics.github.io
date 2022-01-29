@@ -30,9 +30,9 @@ Conceived by [Ted Gioia](https://theodoregioia.com/), Quantum Criticism is an um
 
 **Publications**:
 
-* Badgujar et al. [Quantum Criticism: A Tagged News Corpus Analysed for Sentiment and Named Entities](https://arxiv.org/pdf/2006.05267.pdf).
+* Badgujar et al. [Quantum Criticism: A Tagged News Corpus Analysed for Sentiment and Named Entities](https://arxiv.org/pdf/2006.05267.pdf). International Conference on Natural Language Computing Advances (NLCA) 2020.
 * Badgujar et al. [QUANTUM CRITICISM: AN ANALYSIS OF POLITICAL NEWS REPORTING](https://www.academia.edu/download/63879929/7220mlaij0120200710-26340-vo1hwc.pdf). Machine Learning and Applications: An International Journal (MLAIJ) Vol 7, No. 1/2, June 2020.
-* Matson et al. Visualising the News. 2021.
+* Matson et al. Visualising the News. IEEE VIS Workshop 2021.
 
 
 ## Archived Projects
