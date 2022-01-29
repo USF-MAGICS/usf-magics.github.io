@@ -4,12 +4,12 @@ The following material is provided to promote timely dissemination of scholarly 
 
 ## 2022
 
-Daniel J. Barajas, Xornam S. Apedoe, David Guy Brizan, Alark P. Joshi and Sophie J. Engle. *Lessons Learned from Quantitatively Exploring Visualization Rubric Utilization for Peer Feedback* (to appeaer). IEEE Computer Graphics and Applications.
+* Daniel J. Barajas, Xornam S. Apedoe, David Guy Brizan, Alark P. Joshi and Sophie J. Engle. *Lessons Learned from Quantitatively Exploring Visualization Rubric Utilization for Peer Feedback* (to appeaer). IEEE Computer Graphics and Applications.
 
 ## 2021
 
-Liang Wang, Beste F. Yuksel, and David Guy Brizan. *Spontaneous and Posed Smile Detection: Deep Learning, Traditional Machine Learning, and Human Performance*. International Conference on Affective Computing and Intelligent Interaction (ICACII). 2021.
-Evelyn Matson, Daniel Barajas, Jose Corella, and David Guy Brizan. *Visualising the News*. IEEE VIS Workshop. 2021.
+* Liang Wang, Beste F. Yuksel, and David Guy Brizan. *Spontaneous and Posed Smile Detection: Deep Learning, Traditional Machine Learning, and Human Performance*. International Conference on Affective Computing and Intelligent Interaction (ICACII). 2021.
+* Evelyn Matson, Daniel Barajas, Jose Corella, and David Guy Brizan. *Visualising the News*. IEEE VIS Workshop. 2021.
 
 ## 2020
 
