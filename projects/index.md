@@ -22,6 +22,8 @@ loads.
 
 ## Quantum Criticism
 
+<a href="QC-NewsKG.png"><img src="QC-NewsKG.png" class="proj_thumb"/></a>
+
 Conceived by [Ted Gioia](https://theodoregioia.com/), Quantum Criticism is an umbrella of projects around news data and analysis. This includes sub-projects:
 
 * Core QC -- collecting the text of digital print articles from various news sources, including the Atlantic, the BBC, Breitbart News, Fox News, NY Times, Reuters, Slate Magazine and others. These articles are analysed for sentiment on an article level, paragaraph level and sentence level.
