@@ -2,7 +2,7 @@
 
 Welcome to the MAGICS Lab at the University of San Francisco. We are a research lab that focuses on **M**achine Learning, **A**rtificial Intelligence, **G**ame **I**ntelligence, and **C**omputing at **S**cale.
 
-**Meetings**: In Spring of 2022 (starting in February), we meet each week on Monday from 2:55-3:25pm in HR 430 (Harney Science Center, 4th floor). (Also on [zoom](https://usfca.zoom.us/j/81475607502).) 
+**Meetings**: In Spring of 2023 (starting in February), we meet each week on Tuesday from 12 noon - 12:30 pm in HR 435 (Harney Science Center, 4th floor). (Also on [zoom](https://usfca.zoom.us/j/81475607502).) 
 
 Meetings are open to the public and we encourage anyone to join: beginners, practitioners, researchers... all are welcome! Our meetings generally revolve around project updates, discussions, short tutorials, and coverage of the latest research in our fields of study.
 
