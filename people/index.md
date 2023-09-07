@@ -32,7 +32,7 @@ People make the world go round... or make the lab go "bam." In the MAGICS Lab, w
 * Suryadeep Guha
 * [Shrikant Kendre](https://www.linkedin.com/in/skendre/)
 * [Pezanne Khambatta](https://www.linkedin.com/in/pezanne/)
-* [Joel Konuparamban]([joel konuparamban](https://www.linkedin.com/in/joel-konuparamban/)
+* [Joel Konuparamban](https://www.linkedin.com/in/joel-konuparamban/)
 * [Evelyn "Eve" Matson](https://www.linkedin.com/in/evelyn-matson-a19a3716a/)
 * [Kai Middlebrook](https://www.linkedin.com/in/kaimiddlebrook/)
 * Ahn Nguyen
