@@ -42,5 +42,5 @@ People make the world go round... or make the lab go "bam." In the MAGICS Lab, w
 * [Jenny Tang](https://www.linkedin.com/in/jennytang1224/)
 * [Terry Tran](https://www.linkedin.com/in/terry-tt-tran/)
 * Andrew Wang
-* [Liang "Leon" Wang](https://www.linkedin.com/in/leon-wang-a29034126/)
+* [Liang "Leon" Wang](https://www.linkedin.com/in/liang-leon-wang/)
 * Li "Leslie" Zheng
