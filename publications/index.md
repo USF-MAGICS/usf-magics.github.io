@@ -2,9 +2,14 @@
 
 The following material is provided to promote timely dissemination of scholarly work. Contact the individual copyright holders for information regarding distribution or licensing.
 
+## 2023
+
+* Rashmi Nagpal, Faaz Arshad, David Guy Brizan. *Conversational Styles: A Survey of Features and Distributions on the Switchboard Corpus* Proceedings of the AACL, 2023.
+
 ## 2022
 
-* Daniel J. Barajas, Xornam S. Apedoe, David Guy Brizan, Alark P. Joshi and Sophie J. Engle. *Lessons Learned from Quantitatively Exploring Visualization Rubric Utilization for Peer Feedback*. IEEE Computer Graphics and Applications (to appeaer).
+* Daniel J. Barajas, Xornam S. Apedoe, David Guy Brizan, Alark P. Joshi and Sophie J. Engle. *Lessons Learned from Quantitatively Exploring Visualization Rubric Utilization for Peer Feedback*. IEEE Computer Graphics and Applications (to appear).
+* Alark P. Joshi, Sophie J. Engle, Matthew Malensek, Chris Brooks, Xornam S. Apedoe and Star Moore. *Acknowledging Inequities in Tech through a Community-Engaged Learning course*. Proceedings of the 54th ACM Technical Symposium on Computer Science Education.
 
 ## 2021
 
