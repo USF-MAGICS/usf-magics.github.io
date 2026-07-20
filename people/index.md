@@ -5,7 +5,6 @@ People make the world go round... or make the lab go "bam." In the MAGICS Lab, w
 ## Lab Directors
 
 * David Guy Brizan (dgbrizan@usfca.edu)
-* Matthew Malensek (mmalensek@usfca.edu)
 * Kelsey Urgo (kurgo@usfca.edu)
 * Paul Intrevado (former director)
 
