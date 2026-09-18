@@ -1,47 +1,31 @@
-# People
+---
+title: Lab Members
+description: The lab manager, academic directors and advisors, research assistants, volunteers, and alumni of the MAGICS Research Lab.
+---
 
-People make the world go round... or make the lab go "bam." In the MAGICS Lab, we are:
+# Lab Members
 
-## Lab Directors
+People make the world go round... or make the lab go "bam." In the MAGICS Research Lab, we are:
 
-* David Guy Brizan (dgbrizan@usfca.edu)
-* Kelsey Urgo (kurgo@usfca.edu)
-* Paul Intrevado (former director)
+## Lab Manager
 
-## Research Assistants & Volunteers (Fall 2023)
+* Kellie Clark (klclark6@dons.usfca.edu)
 
+## Academic Directors and Advisors
 
-* Ashwini Badgujar
-* Olga Kondratenko
-* [Jaz Ku](https://www.linkedin.com/in/jaz-samantha-ku/)
-* [Blayde Omura](https://blaydeomura.com/)
+* [David Guy Brizan](https://www.usfca.edu/faculty/david-guy-brizan) (dgbrizan@usfca.edu)
+* [Mario Lim](https://www.usfca.edu/faculty/mario-lim) (mlim3@usfca.edu)
+
+## Research Assistants & Volunteers (Fall 2026)
+
 * Rashmi Nagpal
-
-
-
-## Lab Alumni
-
-* [Faaz Arshad](https://scholar.google.com/citations?user=FmNY5gEAAAAJ)
-* [Daniel Barajas](https://www.linkedin.com/in/djbarajas/)
-* [Nikhil Barapatre](https://www.linkedin.com/in/nikhilbarapatre/)
-* Anant Bhatia
-* [Milton Carreno](https://www.linkedin.com/in/milton-carreno-0078b3166/)
-* [Jennifer Cruz Hernandez](https://www.linkedin.com/in/jjcruzhernandez/)
-* [Aditya Dixit](https://www.linkedin.com/in/adidix/)
-* [Arturo Galvan-Alarcon](https://www.linkedin.com/in/agalvanalarcon/)
-* Suryadeep Guha
-* [Shrikant Kendre](https://www.linkedin.com/in/skendre/)
-* [Pezanne Khambatta](https://www.linkedin.com/in/pezanne/)
-* [Joel Konuparamban](https://www.linkedin.com/in/joel-konuparamban/)
-* [Evelyn "Eve" Matson](https://www.linkedin.com/in/evelyn-matson-a19a3716a/)
-* [Kai Middlebrook](https://www.linkedin.com/in/kaimiddlebrook/)
-* Ahn Nguyen
-* [Hana Oshima](https://www.linkedin.com/in/hana-oshima-494076163/)
-* [Isha Singh](https://www.linkedin.com/in/isingh4/)
-* [Brian Sisney](https://www.linkedin.com/in/briansisney)
-* [Jenny Tang](https://www.linkedin.com/in/jennytang1224/)
-* [Terry Tran](https://www.linkedin.com/in/terry-tt-tran/)
-* Andrew Wang
-* [Liang "Leon" Wang](https://www.linkedin.com/in/liang-leon-wang/)
-* Li "Leslie" Zheng
-* [Xinqi Zhang](https://www.linkedin.com/in/xinqi-zhang-829044179/)
+* Justin Wong
+* Kellie Clark
+* Paria Akhtarmoghaddam
+* Mowei Zang
+* AJ Alston
+* Dain Brownlow
+* Lisa Jurca
+* Alex Peczon
+* Eric Taylor
+* Myat Paye Paing

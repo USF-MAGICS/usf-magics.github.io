@@ -1,16 +1,453 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* ==========================================================================
+   MAGICS Lab — University of San Francisco
+   Brand values taken from the usfca.edu theme stylesheet:
+     USF Green  #00543C
+     USF Gold   #FDBB30
+     Body text  #333333
+     Type: IBM Plex Serif (headings), Fira Sans (body),
+           Fira Sans Extra Condensed (navigation and labels)
+   ========================================================================== */
 
-nav a {
-    display: block;
-    font-size: 115%;
-    line-height: 1.75;
+:root {
+  --usf-green: #00543C;
+  --usf-green-dark: #003D2C;
+  --usf-green-light: #0A6B4E;
+  --usf-gold: #FDBB30;
+  --usf-ink: #333333;
+  --usf-muted: #5F6B66;
+  --usf-rule: #DCE2DF;
+  --usf-tint: #F4F6F5;
+  --usf-white: #FFFFFF;
+  --container: 1140px;
 }
 
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--usf-white);
+  color: var(--usf-ink);
+  font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding-inline: 24px;
+}
+
+a { color: var(--usf-green); }
+a:hover, a:focus { color: var(--usf-green-light); }
+
+:focus-visible {
+  outline: 3px solid var(--usf-gold);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--usf-gold);
+  color: var(--usf-green-dark);
+  padding: 10px 18px;
+  font-weight: 600;
+  z-index: 100;
+}
+.skip-link:focus { left: 0; }
+
+/* --------------------------------------------------------- University bar */
+
+.usf-bar {
+  background: var(--usf-green);
+  color: var(--usf-white);
+}
+
+.usf-bar__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding-block: 10px;
+}
+
+.usf-bar a {
+  color: var(--usf-white);
+  text-decoration: none;
+  font-family: 'Fira Sans Extra Condensed', 'Arial Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.usf-bar__university {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.usf-bar__unit {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--usf-gold) !important;
+}
+
+.usf-bar a:hover, .usf-bar a:focus { text-decoration: underline; }
+
+/* ------------------------------------------------------------- Lab header */
+
+/* Green band continuous with the university bar above it, with the mark
+   filling its height. */
+.masthead { background: var(--usf-green); }
+
+.masthead__inner { padding-block: 12px; }
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 1.8vw, 26px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand__mark {
+  width: auto;
+  height: clamp(66px, 8.8vw, 110px);  /* fills the band top to bottom; the
+                                        two-line lockup is taller than the
+                                        wordmark alone, so it needs more room */
+  flex: none;
+  display: block;
+}
+
+/* Used only by the alternative masthead in _layouts/default.html */
+.brand--with-text { align-items: center; }
+.brand--with-text .brand__mark { height: 72px; }
+
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.brand__name {
+  font-family: 'IBM Plex Serif', Georgia, serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--usf-green);
+}
+
+.brand__tagline {
+  font-family: 'Fira Sans Extra Condensed', 'Arial Narrow', sans-serif;
+  font-size: clamp(13px, 1.35vw, 19px);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 1.35;
+  text-transform: uppercase;
+  color: var(--usf-white);
+}
+
+.brand__tagline .phrase { white-space: nowrap; }
+.brand__tagline .sep { color: var(--usf-gold); padding-inline: 0.45em; }
+
+/* Below 480px the tagline stacks to four lines beside a small logo and reads
+   cluttered; from 480px up it sits alongside without making the band taller.
+   The home page hero still carries the wording on every screen size. */
+/* The tagline is short enough now (two topics) to sit beside the logo at every
+   width - it wraps to two lines below 480px without making the band taller. */
+
+/* --------------------------------------------------------------- Main nav */
+
+.site-nav {
+  background: var(--usf-green-dark);
+  border-bottom: 4px solid var(--usf-gold);
+}
+
+.site-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav__list a {
+  display: block;
+  padding: 14px 20px;
+  color: var(--usf-white);
+  text-decoration: none;
+  font-family: 'Fira Sans Extra Condensed', 'Arial Narrow', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 4px solid transparent;
+  margin-bottom: -4px;
+}
+
+.site-nav__list a:hover,
+.site-nav__list a:focus {
+  background: var(--usf-green);
+  color: var(--usf-white);
+}
+
+.site-nav__list a.is-active {
+  background: var(--usf-green);
+  border-bottom-color: var(--usf-white);
+}
+
+/* ------------------------------------------------------------ Page content */
+
+.main {
+  flex: 1 0 auto;
+  padding-block: 44px 64px;
+}
+
+/* The text column fills the container width. (A reading-width cap such as
+   max-width: 78ch would shorten the lines but leave space at the right.) */
+.prose { max-width: none; }
+
+.prose > h1:first-child { margin-top: 0; }
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  font-family: 'IBM Plex Serif', Georgia, serif;
+  color: var(--usf-green);
+  line-height: 1.25;
+  margin: 1.8em 0 0.5em;
+}
+
+.prose h1 {
+  font-size: 40px;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.35em;
+  border-bottom: 4px solid var(--usf-gold);
+}
+
+.prose h2 { font-size: 28px; }
+.prose h3 { font-size: 21px; }
+.prose h4 { font-size: 18px; color: var(--usf-ink); }
+
+.prose p, .prose li { font-size: 17px; }
+.prose ul, .prose ol { padding-left: 1.3em; }
+.prose li { margin-bottom: 0.35em; }
+
+.prose blockquote {
+  margin: 1.5em 0;
+  padding: 4px 0 4px 22px;
+  border-left: 4px solid var(--usf-gold);
+  color: var(--usf-muted);
+  font-style: italic;
+}
+
+.prose img { max-width: 100%; height: auto; }
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--usf-rule);
+  margin: 2.5em 0;
+}
+
+.prose code {
+  background: var(--usf-tint);
+  border: 1px solid var(--usf-rule);
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 0.9em;
+}
+
+.prose pre {
+  background: var(--usf-tint);
+  border: 1px solid var(--usf-rule);
+  border-left: 4px solid var(--usf-green);
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.prose pre code { background: none; border: 0; padding: 0; }
+
+.table-wrap { overflow-x: auto; }
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+.prose th {
+  background: var(--usf-green);
+  color: var(--usf-white);
+  font-family: 'Fira Sans Extra Condensed', 'Arial Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+}
+
+.prose th, .prose td {
+  border: 1px solid var(--usf-rule);
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose tbody tr:nth-child(even) { background: var(--usf-tint); }
+
+/* Project screenshot thumbnails (kept from the original site) */
 .proj_thumb {
-    float: right;
-    width: 35%;
-    margin: 1em;
+  float: right;
+  width: 35%;
+  margin: 0 0 1em 1.5em;
+  border: 1px solid var(--usf-rule);
+}
+
+/* Long lists of names: flow into columns so they fill the width instead of
+   running down one narrow strip with empty space beside them. */
+.name-list ul {
+  columns: 2;
+  column-gap: 48px;
+  margin-block: 1em;
+}
+
+.name-list li {
+  break-inside: avoid;
+  margin-bottom: 0.5em;
+}
+
+@media (min-width: 1000px) { .name-list ul { columns: 3; } }
+@media (max-width: 559px)  { .name-list ul { columns: 1; } }
+
+/* Optional callout: use <div class="callout"> ... </div> in a page */
+.callout {
+  background: var(--usf-tint);
+  border-left: 4px solid var(--usf-gold);
+  padding: 16px 20px;
+  margin: 1.5em 0;
+}
+
+.callout > :first-child { margin-top: 0; }
+.callout > :last-child { margin-bottom: 0; }
+
+/* ----------------------------------------------------------------- Footer */
+
+.site-footer {
+  background: var(--usf-green);
+  color: var(--usf-white);
+  margin-top: auto;
+}
+
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  padding-block: 40px;
+}
+
+.site-footer p { margin: 0 0 8px; font-size: 15px; }
+
+.site-footer__title {
+  font-family: 'Fira Sans Extra Condensed', 'Arial Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 17px !important;
+  font-weight: 700;
+  color: var(--usf-gold);
+  margin-bottom: 12px !important;
+}
+
+.site-footer ul { margin: 0; padding: 0; list-style: none; }
+.site-footer li { margin-bottom: 6px; font-size: 15px; }
+.site-footer a { color: var(--usf-white); text-decoration: none; }
+.site-footer a:hover, .site-footer a:focus { color: var(--usf-gold); text-decoration: underline; }
+
+.site-footer__legal {
+  background: var(--usf-green-dark);
+  padding-block: 14px;
+}
+
+.site-footer__legal p { margin: 0; font-size: 14px; color: #C8D5CF; }
+
+/* ------------------------------------------------------------ Small screens */
+
+@media (max-width: 760px) {
+  .container { padding-inline: 18px; }
+
+  .brand { gap: 16px; }
+  .brand__name { font-size: 26px; }
+  .brand__tagline { font-size: 15px; }
+
+  .site-nav__list a { padding: 12px 14px; font-size: 16px; }
+
+  .prose h1 { font-size: 31px; }
+  .prose h2 { font-size: 24px; }
+
+  .proj_thumb { float: none; width: 100%; margin: 1em 0; }
+}
+
+/* Schedule table on the Meetings page: row labels instead of a header row */
+.prose .schedule th {
+  background: var(--usf-tint);
+  color: var(--usf-ink);
+  font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.prose .schedule tbody tr:nth-child(even) { background: transparent; }
+
+.brand--with-text .brand__tagline { max-width: 42ch; line-height: 1.35; }
+
+/* --------------------------------------------------- Home page hero banner */
+
+/* Full-bleed green band across the whole top of the home page. The mark sits
+   on the band as a transparent PNG and the tagline is real text, so both stay
+   sharp and readable at any window width. */
+
+.hero {
+  background: linear-gradient(180deg, var(--usf-green-light) 0%, var(--usf-green) 62%, var(--usf-green-dark) 100%);
+  padding-block: clamp(40px, 6vw, 76px);
+  border-bottom: 4px solid var(--usf-gold);
+}
+
+/* Uses the normal container width so the hero lines up with the nav and the
+   content below it; the tagline still fits on one line at full size. */
+.hero__inner { text-align: center; }
+
+.hero__mark {
+  display: block;
+  width: clamp(260px, 46vw, 560px);
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero__tagline {
+  margin: clamp(20px, 3vw, 34px) auto 0;
+  color: var(--usf-white);
+  font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: clamp(15px, 1.9vw, 24px);
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  line-height: 1.55;
+}
+
+/* keep each phrase whole so a line can only break between phrases,
+   never inside one ("Computing at / Scale") */
+.hero__tagline .phrase { white-space: nowrap; }
+
+.hero__tagline .sep {
+  color: var(--usf-gold);
+  padding-inline: 0.62em;
 }

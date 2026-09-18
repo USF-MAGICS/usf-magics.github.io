@@ -2,44 +2,115 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    {% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
 {% seo %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fira+Sans+Extra+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400&display=swap">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    <script src="https://kit.fontawesome.com/e136389fc0.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
-        
-        {% if site.logo %}
-          <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" style="display: block; width: 50%; margin-left: auto; margin-right: auto"/></a>
-        {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
-        <nav>
-          <a href="/projects"><i class="fas fa-flask"></i> Research Projects</a>
-          <a href="/publications"><i class="far fa-file-alt"></i> Publications</a>
-          <a href="/people"><i class="fas fa-user"></i> Lab Members</a>
-        </nav>
-
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
+    <!-- University identification bar -->
+    <div class="usf-bar">
+      <div class="container usf-bar__inner">
+        <a class="usf-bar__university" href="https://www.usfca.edu">University of San Francisco</a>
+        <a class="usf-bar__unit" href="https://www.cs.usfca.edu">Department of Computer Science</a>
+      </div>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+{% if page.url != "/" %}
+    <!-- Lab masthead -->
+    <header class="masthead">
+      <div class="container masthead__inner">
+        <a class="brand" href="{{ "/" | absolute_url }}">
+          <img class="brand__mark" src="{{ "/assets/img/magics-mark.png" | relative_url }}"
+               alt="{{ site.title }}" width="1272" height="832">
+          <span class="brand__tagline">
+            <span class="phrase">Machine Learning<span class="sep">·</span></span><wbr><span class="phrase">Artificial Intelligence</span>
+          </span>
+        </a>
+      </div>
+    </header>
+    {% endif %}
+
+    <!-- Primary navigation. To add or rename a tab, edit the list below. -->
+    {% assign path_parts = page.url | split: "/" %}
+    {% assign section = path_parts[1] %}
+    <nav class="site-nav" aria-label="Primary">
+      <div class="container">
+        <ul class="site-nav__list">
+          <li><a href="/" {% if page.url == "/" %}class="is-active" aria-current="page"{% endif %}>Home</a></li>
+          <li><a href="/meetings/" {% if section == "meetings" %}class="is-active" aria-current="page"{% endif %}>Meetings</a></li>
+          <li><a href="/projects/" {% if section == "projects" %}class="is-active" aria-current="page"{% endif %}>Research Projects</a></li>
+          <li><a href="/publications/" {% if section == "publications" %}class="is-active" aria-current="page"{% endif %}>Publications</a></li>
+          <li><a href="/people/" {% if section == "people" %}class="is-active" aria-current="page"{% endif %}>Lab Members</a></li>
+          <li><a href="/alumni/" {% if section == "alumni" %}class="is-active" aria-current="page"{% endif %}>Lab Alumni</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    {% if page.url == "/" %}
+    <section class="hero">
+      <div class="container hero__inner">
+        <img class="hero__mark" src="{{ "/assets/img/magics-mark.png" | relative_url }}"
+             alt="{{ site.title }}" width="1272" height="832">
+        <p class="hero__tagline">
+          <span class="phrase">Machine Learning<span class="sep">·</span></span><wbr><span class="phrase">Artificial Intelligence</span>
+        </p>
+      </div>
+    </section>
+    {% endif %}
+
+    <main id="main" class="main">
+      <div class="container">
+        <article class="prose">
+          {{ content }}
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div class="site-footer__col">
+          <p class="site-footer__title">MAGICS Research Lab</p>
+          <p>Department of Computer Science<br>
+          University of San Francisco<br>
+          2130 Fulton Street, San Francisco, CA 94117</p>
+        </div>
+        <div class="site-footer__col">
+          <p class="site-footer__title">Explore</p>
+          <ul>
+            <li><a href="/meetings/">Meetings</a></li>
+            <li><a href="/projects/">Research Projects</a></li>
+            <li><a href="/publications/">Publications</a></li>
+            <li><a href="/people/">Lab Members</a></li>
+            <li><a href="/alumni/">Lab Alumni</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__col">
+          <p class="site-footer__title">University</p>
+          <ul>
+            <li><a href="https://www.usfca.edu">usfca.edu</a></li>
+            <li><a href="https://www.cs.usfca.edu">Computer Science</a></li>
+            <li><a href="https://github.com/USF-MAGICS">GitHub Organization</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__legal">
+        <div class="container">
+          <p>&copy; {{ site.time | date: "%Y" }} MAGICS Research Lab, University of San Francisco.</p>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>

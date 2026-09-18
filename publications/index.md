@@ -1,10 +1,15 @@
+---
+title: Publications
+description: Papers and scholarly work from the MAGICS Research Lab at the University of San Francisco.
+---
+
 # Publications
 
 The following material is provided to promote timely dissemination of scholarly work. Contact the individual copyright holders for information regarding distribution or licensing.
 
 ## 2023
 
-* Rashmi Nagpal, Faaz Arshad, David Guy Brizan. *Conversational Styles: A Survey of Features and Distributions on the Switchboard Corpus* Proceedings of the AACL, 2023.
+* Rashmi Nagpal, Faaz Arshad, David Guy Brizan. *Conversational Styles: A Survey of Features and Distributions on the Switchboard Corpus*. Proceedings of the AACL, 2023.
 
 ## 2022
 
@@ -14,7 +19,7 @@ The following material is provided to promote timely dissemination of scholarly 
 ## 2021
 
 * Liang Wang, Beste F. Yuksel, and David Guy Brizan. *Spontaneous and Posed Smile Detection: Deep Learning, Traditional Machine Learning, and Human Performance*. International Conference on Affective Computing and Intelligent Interaction (ICACII). 2021.
-* Evelyn Matson, Daniel Barajas, Jose Corella, and David Guy Brizan. *Visualising the News*. IEEE VIS Workshop. 2021.
+* Evelyn Matson, Daniel Barajas, Jose Corella, and David Guy Brizan. *Visualizing the News*. IEEE VIS Workshop. 2021.
 
 ## 2020
 

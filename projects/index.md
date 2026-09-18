@@ -1,4 +1,9 @@
-# Projects
+---
+title: Research Projects
+description: Active and archived research projects in the MAGICS Research Lab at the University of San Francisco.
+---
+
+# Research Projects
 
 The following projects are under active development.
 
@@ -15,7 +20,7 @@ machine learning models. Our approach facilitates low-latency, iterative explora
 streams and can scale out incrementally to handle increasing stream velocities and query
 loads.
 
-[Visit the Github Organization](https://github.com/agami-viz) for more information about the project.
+[Visit the GitHub Organization](https://github.com/agami-viz) for more information about the project.
 
 **Publications**: Lu et al. *Agami: Scalable Visual Analytics over Multidimensional Data Streams*. Proceedings of the 7th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT) 2020.
 
@@ -26,15 +31,15 @@ loads.
 
 Conceived by [Ted Gioia](https://theodoregioia.com/), Quantum Criticism is an umbrella of projects around news data and analysis. This includes sub-projects:
 
-* Core QC -- collecting the text of digital print articles from various news sources, including the Atlantic, the BBC, Breitbart News, Fox News, NY Times, Reuters, Slate Magazine and others. These articles are analysed for sentiment on an article level, paragaraph level and sentence level.
+* Core QC -- collecting the text of digital print articles from various news sources, including the Atlantic, the BBC, Breitbart News, Fox News, NY Times, Reuters, Slate Magazine and others. These articles are analyzed for sentiment on an article level, paragraph level and sentence level.
 * News KG -- a searchable knowledge graph of news articles in the QC database, published in IEEE VIS by Evelyn Matson, Daniel Barajas, Jose Corella, and David Guy Brizan.
-* Perspective -- a new sub-project to determine the various perspectives (eg. political or demographic interests) of a news story as reported in different sources. Parisa Hemmati, Nikhil Matta, Brian Sisney and David Guy Brizan are working on this.
+* Perspective -- a new sub-project to determine the various perspectives (e.g. political or demographic interests) of a news story as reported in different sources. Parisa Hemmati, Nikhil Matta, Brian Sisney and David Guy Brizan are working on this.
 
 **Publications**:
 
 * Badgujar et al. [Quantum Criticism: A Tagged News Corpus Analysed for Sentiment and Named Entities](https://arxiv.org/pdf/2006.05267.pdf). International Conference on Natural Language Computing Advances (NLCA) 2020.
 * Badgujar et al. [QUANTUM CRITICISM: AN ANALYSIS OF POLITICAL NEWS REPORTING](https://www.academia.edu/download/63879929/7220mlaij0120200710-26340-vo1hwc.pdf). Machine Learning and Applications: An International Journal (MLAIJ) Vol 7, No. 1/2, June 2020.
-* Matson et al. Visualising the News. IEEE VIS Workshop 2021.
+* Matson et al. Visualizing the News. IEEE VIS Workshop 2021.
 
 ## Fire Progression
 
@@ -57,7 +62,7 @@ What makes one speaker sound polite and another person sound aggressive? It's pr
 
 ## Archived Projects
 
-The following projects are no longer under active development, but have open source releases and are often are used as the basis for future work.
+The following projects are no longer under active development, but have open source releases and are often used as the basis for future work.
 
 * [Smile Types](https://github.com/lwang89/PredictingSmileTypes) - predicting fake vs. real smiles... with 100% accuracy! Project leaders: Liang "Leon" Wang, Beste F. Yuksel and David Guy Brizan.
 * [Scalable NIO](https://github.com/USF-MAGICS/scalable-nio) - high-performance, non-blocking server for scalable communications. Project lead: Chirag Jain.

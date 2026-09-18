@@ -1,4 +1,13 @@
 theme: jekyll-theme-minimal
-title: USFCA MAGICS Lab
-description: Machine Learning, Artificial Intelligence, Game Intelligence, Computing at Scale
-logo: magics.png
+title: MAGICS Research Lab
+description: Machine Learning · Artificial Intelligence
+
+# The logo is assets/img/magics-mark.png, referenced from
+# _layouts/default.html. Regenerate it with tools/redraw_logo.py.
+
+exclude:
+  - README.md
+  - RESUME-NOTES.md
+  - preview/
+  - tools/
+  - people/index-table.md
