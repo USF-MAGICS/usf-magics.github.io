@@ -17,7 +17,7 @@ and Zoom link.
 
 ## Why Join MAGICS?
 
-MAGICS is a great opportunity for students to learn about the current developments in the tech world as well as develop the skills that are needed to accurately research and develop new tech.
+MAGICS is a great opportunity for students to learn about the current developments in the tech world as well as cultivate the skills that are needed to accurately research and build new tech.
 
 * The demand for technical research and R&D is surging at companies as they explore AI.
 * The U.S. Bureau of Labor Statistics has defined roles in Computer and Information Research Scientists as a key growth area in the tech industry.
