@@ -20,7 +20,7 @@ and Zoom link.
 MAGICS is a great opportunity for students to learn about the current developments in the tech world as well as cultivate the skills that are needed to accurately research and build new tech.
 
 * The demand for technical research and R&D is surging at companies as they explore AI.
-* The U.S. Bureau of Labor Statistics has defined roles in Computer and Information Research Scientists as a key growth area in the tech industry.
+* The [U.S. Bureau of Labor Statistics](https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm) has defined roles in Computer and Information Research Scientists as a key growth area in the tech industry.
 * Add to your resume to stand out when applying for internships and jobs.
 * Work closely with academic advisors who can guide you and help your personal growth.
 
