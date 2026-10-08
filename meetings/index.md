@@ -66,9 +66,9 @@ them outperforms a speaker-independent model by only 3.6 percent.
 
 ### About the presenter
 
-**Dain Brownlow** — I'm a Computer Science undergraduate at the University of
-San Francisco (Class of 2027) and a research assistant in the MAGICS Lab, where
-I work on computational linguistics. My current project studies conversational
+**Dain Brownlow** is a Computer Science undergraduate at the University of San
+Francisco (Class of 2027) and a research assistant in the MAGICS Lab, where he
+works on computational linguistics. His current project studies conversational
 style in large-scale speech corpora, testing sociolinguistic style frameworks
 using Python-based pipelines, encoder models for learned representations, and
 statistical methods such as PCA and Gaussian mixture clustering.
