@@ -7,7 +7,8 @@ the real build. Output goes to preview/ which is gitignored.
 """
 import io, os, re, shutil, subprocess, sys, time
 
-ROOT = os.path.expanduser("~/Desktop/GradSchool/USF/usf-magics.github.io")
+# derive the repo root from this file so moving the folder does not break the build
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "preview")
 
 SITE_TITLE = "MAGICS Lab"

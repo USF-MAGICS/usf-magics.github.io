@@ -28,7 +28,9 @@ Let us know if you would like to meet in person and we will find a room.
 
 ## Next meeting
 
-**Intro to the MAGICS Research Lab** — Thursday, September 24
+**Intro to Projects** — Thursday, October 1
+
+**Project check in and Reading Group:** [A Dimensional Model of Interaction Style Variation in Spoken Dialog](https://www.cs.utep.edu/nigel/istyles/ward-avila-submitted.pdf) — Thursday, October 8, 7:00 pm
 
 ## What happens at a meeting
 
@@ -39,9 +41,9 @@ Our meetings generally revolve around:
 * Short tutorials on tools and techniques
 * Coverage of the latest research in our fields of study
 
-## Coming Soon: Reading Groups
+## Reading Groups
 
-Throughout the semester, we'll host reading groups to explore current
+Throughout the semester, we host reading groups to explore current
 developments in the industry.
 
 **Why should you attend?**
@@ -49,6 +51,27 @@ developments in the industry.
 * Discover topics you are interested in and want to work on.
 * Form ideas for research projects that you're passionate about.
 * Practice your skills in presenting and speaking about research.
+
+### This week's paper
+
+[A Dimensional Model of Interaction Style Variation in Spoken Dialog](https://www.cs.utep.edu/nigel/istyles/ward-avila-submitted.pdf) — Nigel G. Ward and Jonathan E. Avila, *Speech Communication*, 2023.
+Presented by **Dain Brownlow**.
+
+Ward and Avila apply Principal Component Analysis to 84 prosodic features drawn
+from the Switchboard corpus to build an eight-dimensional model of how
+interaction style varies in spoken dialog. They argue that dialog systems should
+be able to adapt their style the way people do, and report a surprising result:
+individual style tendencies turn out to be weak enough that a model built on
+them outperforms a speaker-independent model by only 3.6 percent.
+
+### About the presenter
+
+**Dain Brownlow** — I'm a Computer Science undergraduate at the University of
+San Francisco (Class of 2027) and a research assistant in the MAGICS Lab, where
+I work on computational linguistics. My current project studies conversational
+style in large-scale speech corpora, testing sociolinguistic style frameworks
+using Python-based pipelines, encoder models for learned representations, and
+statistical methods such as PCA and Gaussian mixture clustering.
 
 ## Questions?
 
