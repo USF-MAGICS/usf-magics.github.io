@@ -25,6 +25,7 @@ PAGES = [
     ("alumni/index.md",       "alumni/index.html",       "alumni",       "Lab Alumni"),
     # hidden: built and browsable, but deliberately absent from the navigation
     ("recordings/index.md",   "recordings/index.html",   "recordings",   "Recorded Meetings", True),
+    ("past-presenters/index.md", "past-presenters/index.html", "past-presenters", "Past Presenters", True),
 ]
 
 CACHE_BUST = str(int(time.time()))   # forces the browser to refetch the CSS

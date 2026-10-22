@@ -337,6 +337,31 @@ a:hover, a:focus { color: var(--usf-green-light); }
 .callout > :first-child { margin-top: 0; }
 .callout > :last-child { margin-bottom: 0; }
 
+/* Presenter photo beside the bio on the Meetings page */
+.presenter {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 1em 0 1.5em;
+}
+
+.presenter__photo {
+  flex: none;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--usf-gold);
+}
+
+.presenter > div { min-width: 0; }
+.presenter > div > :first-child { margin-top: 0; }
+
+@media (max-width: 559px) {
+  .presenter { flex-direction: column; }
+  .presenter__photo { align-self: center; }
+}
+
 /* ----------------------------------------------------------------- Footer */
 
 .site-footer {

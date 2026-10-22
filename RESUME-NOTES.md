@@ -5,13 +5,16 @@ Working notes for picking the site back up. Not part of the published site
 
 ## Status
 
-All work is **local only**. Nothing has been committed or pushed — `git status`
-still shows every change as uncommitted, and `magics.png` (the old robot logo)
-is staged for deletion but recoverable from git history.
+The Fall 2026 rebuild is committed and pushed to `main` (commits `9a43c72`,
+`56046cf`, `fb7086d`).
+
+All MAGICS material now lives in `~/Desktop/GradSchool/MAGICS/` — this repo is
+under `Website/`, and logos, the announcement slide and the slide template are
+under `Branding/`.
 
 ## To see the site
 
-    cd ~/Desktop/GradSchool/USF/usf-magics.github.io
+    cd ~/Desktop/GradSchool/MAGICS/Website/usf-magics.github.io
     python3 tools/serve.py
 
 Then open http://127.0.0.1:4321/ — rebuilds and serves with caching disabled, so
@@ -28,6 +31,7 @@ a plain reload always shows the current build.
 | `/people/` | `people/index.md` | yes |
 | `/alumni/` | `alumni/index.md` | yes |
 | `/recordings/` | `recordings/index.md` | **no — hidden, `noindex`** |
+| `/past-presenters/` | `past-presenters/index.md` | **no — hidden, `noindex`** |
 
 ## Open question
 
