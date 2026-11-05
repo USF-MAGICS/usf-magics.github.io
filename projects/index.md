@@ -7,57 +7,68 @@ description: Active and archived research projects in the MAGICS Research Lab at
 
 The following projects are under active development.
 
-## Agami: Scalable Streaming Visualization
+## Computational Framework for Modeling Human Conversation
 
-<a href="agami-ss.png"><img src="agami-ss.png" class="proj_thumb"/></a>
+AJ Alston, Dain Brownlow and David Guy Brizan.
 
-(Collaboration with the USF [VGL](https://vgl.cs.usfca.edu))
+Human conversation is shaped by individual speaking behaviors, interactions between
+participants, communicative settings, and the ways discourse is organized.
 
-Agami provides live-updating, interactive visualizations over
-streaming data. We leverage in-memory data sketches to summarize and aggregate information
-to be visualized, and also allow users to query future feature values by leveraging online
-machine learning models. Our approach facilitates low-latency, iterative exploration of data
-streams and can scale out incrementally to handle increasing stream velocities and query
-loads.
+This research aims to develop a unified computational framework connecting four dimensions of
+conversational variation:
 
-[Visit the GitHub Organization](https://github.com/agami-viz) for more information about the project.
+* speaker characteristics and behavior
+* interactional dynamics
+* register
+* genre
 
-**Publications**: Lu et al. *Agami: Scalable Visual Analytics over Multidimensional Data Streams*. Proceedings of the 7th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT) 2020.
+Drawing on sociolinguistics, psychology, discourse theory, and computational approaches, the
+research explores how these dimensions can be systematically represented, measured, and
+analyzed to better understand human communication patterns.
+
+The primary goal is to help individuals develop greater awareness of their own communication
+behaviors, improve interpersonal understanding, and maximize their communicative potential. A
+broader, long-term objective is to apply these insights toward developing intelligent systems that
+optimize efficiency and speed up the training of professionals in the workforce.
+
+## AI Tutor
+
+Kellie Clark, Jarad Lim, Mario Lim, Myat Paye Paing and David Guy Brizan.
+
+Students come into a course with different backgrounds, learning styles and needs. Some need
+a concept explained more than one way, and others need more time with the material before it
+makes sense. Not every student has the same resources, and work or other commitments can
+prevent them from attending office hours or tutoring sessions. These gaps can affect how well
+students learn and who is able to succeed.
+
+More and more students are using general AI tools to fill this gap, but those tools were not built
+for teaching. They don't know what a course covers, so their answers can be wrong, unrelated
+to the class, or in conflict with how the instructor teaches the material. They also tend to give the
+answer outright, which skips the learning the student needs.
+
+The AI tutor offers a solution that is specifically designed to enhance student learning by:
+
+* Integrating directly with course content to give students accurate, relevant information
+* Letting the instructor set guardrails on how much the tutor can help a student
+* Focusing on teaching the student and deepening their understanding instead of handing out answers
+* Providing an individualized tutoring experience based on the student's specific needs
+
+The project draws on retrieval-augmented generation, learning management system integration,
+and educational practice. It looks at how an AI assistant can support students while keeping the
+instructor in control of what the tutor knows and shares.
+
+The main goal is to give students reliable, course-aligned help whenever they need it, and to
+give instructors a tool that fits into how they already teach. Over the long term, the aim is to
+show how AI tutoring can help individual students succeed and show how AI can be used as an
+ethical educational resource.
 
 
-## Quantum Criticism
+## Additional Projects
 
-<a href="QC-NewsKG.png"><img src="QC-NewsKG.png" class="proj_thumb"/></a>
-
-Conceived by [Ted Gioia](https://theodoregioia.com/), Quantum Criticism is an umbrella of projects around news data and analysis. This includes sub-projects:
-
-* Core QC -- collecting the text of digital print articles from various news sources, including the Atlantic, the BBC, Breitbart News, Fox News, NY Times, Reuters, Slate Magazine and others. These articles are analyzed for sentiment on an article level, paragraph level and sentence level.
-* News KG -- a searchable knowledge graph of news articles in the QC database, published in IEEE VIS by Evelyn Matson, Daniel Barajas, Jose Corella, and David Guy Brizan.
-* Perspective -- a new sub-project to determine the various perspectives (e.g. political or demographic interests) of a news story as reported in different sources. Parisa Hemmati, Nikhil Matta, Brian Sisney and David Guy Brizan are working on this.
-
-**Publications**:
-
-* Badgujar et al. [Quantum Criticism: A Tagged News Corpus Analysed for Sentiment and Named Entities](https://arxiv.org/pdf/2006.05267.pdf). International Conference on Natural Language Computing Advances (NLCA) 2020.
-* Badgujar et al. [QUANTUM CRITICISM: AN ANALYSIS OF POLITICAL NEWS REPORTING](https://www.academia.edu/download/63879929/7220mlaij0120200710-26340-vo1hwc.pdf). Machine Learning and Applications: An International Journal (MLAIJ) Vol 7, No. 1/2, June 2020.
-* Matson et al. Visualizing the News. IEEE VIS Workshop 2021.
-
-## Fire Progression
-
-Can you predict the path of a wildfire? We think we can... using a deep neural network and lots of historical data. If successful, this could give people in danger enough time to leave a fire-affected area. The "we" in this case are:
-
-* Ashwini Badgujar
-* Milton Carreno
-* Olga Kondratenko
-* Brian Sisney
-* Li “Leslie” Zheng (former)
-* David Guy Brizan
-* Paul Intrevado
-* AJ Purdy
-* David Saah
-
-## Conversational Styles
-
-What makes one speaker sound polite and another person sound aggressive? It's probably the speaker's conversational style -- their pace, pitch, the words they use. In this project, Rashmi Nagpal, Faaz Arshad and David Guy Brizan investigate whether the conversational styles are tied to demographics like gender, education, etc.
+* **Aspirations** — Paria Akhtarmoghaddam and Mowei Zhang, along with Prof. Keith Hunter.
+* **Interruptions** — Justin Wong and Jen Wise, along with Prof. Zach Reese's L+C Lab.
+* **KnowMe** — Divya.
+* **Metaphors** — Lisa Jurca, Alex Peczon and Myat Paye Paing.
 
 
 ## Archived Projects

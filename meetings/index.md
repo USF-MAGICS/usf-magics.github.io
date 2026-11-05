@@ -28,7 +28,11 @@ Let us know if you would like to meet in person and we will find a room.
 
 ## Next meeting
 
-**Project check in and Reading Group:** [Beyond Perturbation Robustness: Biological Equivalence in Genomic Foundation Models](https://neurips.cc/virtual/2026/163728) — Thursday, October 22, 7:00 pm
+**Project check in**
+
+Featured presentation: Unified Computational Framework for Modeling Human Conversation — Thursday, November 5, 7:00 pm
+
+Presenter: AJ Alston
 
 ## What happens at a meeting
 
@@ -50,32 +54,41 @@ developments in the industry.
 * Form ideas for research projects that you're passionate about.
 * Practice your skills in presenting and speaking about research.
 
-### This week's paper
+### This week's presentation
 
-[Beyond Perturbation Robustness: Biological Equivalence in Genomic Foundation Models](https://neurips.cc/virtual/2026/163728) — Padmaja Mohanty, WiML Workshop at NeurIPS 2026.
-Presented by **Padmaja Mohanty**.
+**Toward a Unified Computational Framework for Modeling Human Conversation**.
+Presented by **AJ Alston**.
 
-Different DNA sequences can encode the same protein. This paper asks whether
-genomic foundation models recognize that, and whether their learned
-representations capture the biological meaning rather than just similarity in
-the DNA. Mohanty tests four models on 91 human coding sequences and finds that
-two of them do no better than chance: a model that barely changes under DNA
-edits has not necessarily learned the biology.
+Human conversation is shaped by individual speaking behaviors, interactions
+between participants, communicative settings, and the ways discourse is
+organized. This presentation introduces an ongoing research effort to develop a
+unified computational framework connecting four dimensions of conversational
+variation: speaker characteristics and behavior, interactional dynamics,
+register, and genre. Drawing on sociolinguistics, psychology, discourse theory
+and computational approaches, the research explores how these dimensions can be
+systematically represented, measured and analyzed to better understand human
+communication patterns.
+
+The primary goal is to help individuals develop greater awareness of their own
+communication behaviors, improve interpersonal understanding, and maximize their
+communicative potential. A broader, long-term objective is to apply these
+insights toward intelligent systems that speed up the training of professionals
+in the workforce.
 
 ### About the presenter
 
 <div class="presenter">
-  <img class="presenter__photo" src="/assets/img/padmaja-mohanty.jpg" alt="Padmaja Mohanty">
+  <img class="presenter__photo" src="/assets/img/aj-alston.png" alt="AJ Alston">
   <div markdown="1">
 
-**Padmaja Mohanty** is a Master's student in Computer Science at the University
-of San Francisco working at the intersection of AI, biology and healthcare. Her
-research focuses on understanding what AI models learn about biological systems,
-how they process information and whether their representations capture
-meaningful biological relationships and mechanisms. Two of her projects on
-genomic foundation models were accepted at NeurIPS 2026 workshops: a mechanistic
-interpretability study of how SpliceBERT processes RNA splicing signals, and
-this week's paper.
+**AJ Alston** is a researcher and a University of San Francisco alumnus with a
+B.S. in Physics and minors in Computer Science and African American Studies. He
+currently works as a tutor while conducting independent research on
+computational approaches to understanding and modeling human conversation. His
+broader research interests include human conversational dynamics, social and
+cognitive psychology, and human-computer interaction, along with cybersecurity,
+national security, quantum computing, computer graphics and visualization, the
+safety and oversight of autonomous systems, and artificial intelligence.
 
   </div>
 </div>
