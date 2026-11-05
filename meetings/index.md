@@ -30,9 +30,9 @@ Let us know if you would like to meet in person and we will find a room.
 
 **Project check in**
 
-Featured presentation: Unified Computational Framework for Modeling Human Conversation — Thursday, November 5, 7:00 pm
+**Featured presentation:** Unified Computational Framework for Modeling Human Conversation — Thursday, November 5, 7:00 pm
 
-Presenter: AJ Alston
+**Presenter:** AJ Alston
 
 ## What happens at a meeting
 
