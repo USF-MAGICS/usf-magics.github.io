@@ -62,6 +62,44 @@ give instructors a tool that fits into how they already teach. Over the long ter
 show how AI tutoring can help individual students succeed and show how AI can be used as an
 ethical educational resource.
 
+## Understanding Biological Representations in Genomic Foundation Models
+
+Padmaja Mohanty and Prof. David Guy Brizan.
+
+Genomic foundation models learn representations of DNA sequences, but how these
+representations capture biological information and functional relationships
+remains unclear.
+
+This project focuses on developing a deeper understanding of the internal
+representations learned by NucEL and JEPA-DNA. Through controlled sequence
+transformations, embedding analysis, and mechanistic interpretability
+techniques, we investigate how these models encode biological information,
+distinguish functionally meaningful variations, and organize genomic
+representations.
+
+The broader goal is to understand how NucEL and JEPA-DNA process and represent
+biological information, identify the strengths and limitations of their learned
+representations, and explore their potential applications in human genetics and
+genomic medicine.
+
+## Markers vs. Meaning: Investigating Self-Correction in Large Language Models
+
+Padmaja Mohanty and Prof. David Guy Brizan.
+
+Large language models often generate language suggesting reflection or
+self-correction, but it is unclear whether these linguistic markers correspond
+to meaningful changes in their internal representations.
+
+This project investigates the relationship between linguistic markers and
+semantic information during LLM self-correction. Using
+DeepSeek-R1-Distill-Qwen-7B and controlled activation patching, we examine how
+question identity, proposed answer identity, and reflection wording influence
+internal transformer representations.
+
+The goal is to understand whether apparent self-correction reflects meaningful
+internal computation or learned linguistic patterns, contributing to research on
+mechanistic interpretability and reliable AI reasoning.
+
 
 ## Additional Projects
 

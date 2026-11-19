@@ -16,7 +16,7 @@ noindex: true
      To publish it later: add a nav entry in _layouts/default.html and
      delete the "noindex: true" line from the front matter above.
 
-     When a new reading group replaces "This week's paper" on the
+     When a new reading group replaces "This week's presentation" on the
      Meetings page, move the old one here, most recent first.
      =================================================================== -->
 
@@ -25,6 +25,28 @@ noindex: true
 Papers presented at past MAGICS reading groups, most recent first.
 
 ## Fall 2026
+
+### November 5, 2026 — AJ Alston
+
+**Toward a Unified Computational Framework for Modeling Human Conversation**.
+Presented by **AJ Alston**.
+
+Human conversation is shaped by individual speaking behaviors, interactions
+between participants, communicative settings, and the ways discourse is
+organized. This presentation introduced an ongoing research effort to develop a
+unified computational framework connecting four dimensions of conversational
+variation: speaker characteristics and behavior, interactional dynamics,
+register, and genre. Drawing on sociolinguistics, psychology, discourse theory
+and computational approaches, the research explores how these dimensions can be
+systematically represented, measured and analyzed to better understand human
+communication patterns.
+
+**AJ Alston** is a researcher and a University of San Francisco alumnus with a
+B.S. in Physics and minors in Computer Science and African American Studies. His
+broader research interests include human conversational dynamics, social and
+cognitive psychology, and human-computer interaction, along with cybersecurity,
+national security, quantum computing, computer graphics and visualization, the
+safety and oversight of autonomous systems, and artificial intelligence.
 
 ### October 22, 2026 — Padmaja Mohanty
 

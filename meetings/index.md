@@ -30,9 +30,9 @@ Let us know if you would like to meet in person and we will find a room.
 
 **Project check in**
 
-**Featured presentation:** Unified Computational Framework for Modeling Human Conversation — Thursday, November 5, 7:00 pm
+**Featured presentation:** Why AI agents can complete single steps but struggle to finish a whole task — Thursday, November 19, 7:00 pm
 
-**Presenter:** AJ Alston
+**Presenter:** Aria Han
 
 ## What happens at a meeting
 
@@ -56,39 +56,34 @@ developments in the industry.
 
 ### This week's presentation
 
-**Toward a Unified Computational Framework for Modeling Human Conversation**.
-Presented by **AJ Alston**.
+**Why AI agents can complete single steps but struggle to finish a whole task.**
+Presented by **Aria Han**.
 
-Human conversation is shaped by individual speaking behaviors, interactions
-between participants, communicative settings, and the ways discourse is
-organized. This presentation introduces an ongoing research effort to develop a
-unified computational framework connecting four dimensions of conversational
-variation: speaker characteristics and behavior, interactional dynamics,
-register, and genre. Drawing on sociolinguistics, psychology, discourse theory
-and computational approaches, the research explores how these dimensions can be
-systematically represented, measured and analyzed to better understand human
-communication patterns.
+An agent can handle one step. Carrying a whole task from the first request to a
+verified result is harder: the system has to keep context, coordinate its
+actions, recover from failures, and check that the result is what was asked for.
 
-The primary goal is to help individuals develop greater awareness of their own
-communication behaviors, improve interpersonal understanding, and maximize their
-communicative potential. A broader, long-term objective is to apply these
-insights toward intelligent systems that speed up the training of professionals
-in the workforce.
+This talk looks at how agent systems are built to do that — through
+orchestration, persistent state, deterministic checks and structured feedback.
+It draws on research in agent reasoning and long-horizon task performance, and
+considers the challenges of coordinating complex work across multiple stages.
+
+Observations from an implemented agent runner show how far this gets today, and
+what still breaks.
 
 ### About the presenter
 
 <div class="presenter">
-  <img class="presenter__photo" src="/assets/img/aj-alston.png" alt="AJ Alston">
+  <img class="presenter__photo" src="/assets/img/aria-han.jpg" alt="Aria Han">
   <div markdown="1">
 
-**AJ Alston** is a researcher and a University of San Francisco alumnus with a
-B.S. in Physics and minors in Computer Science and African American Studies. He
-currently works as a tutor while conducting independent research on
-computational approaches to understanding and modeling human conversation. His
-broader research interests include human conversational dynamics, social and
-cognitive psychology, and human-computer interaction, along with cybersecurity,
-national security, quantum computing, computer graphics and visualization, the
-safety and oversight of autonomous systems, and artificial intelligence.
+**Aria Han** is an AI systems architect and CTO specializing in autonomous
+agents, orchestration, and AI infrastructure. She studied Computer Science at the
+University of San Francisco and has founded three companies. Her work spans agent
+orchestration, persistent memory, evaluation, and the development of systems
+capable of executing complex tasks with minimal human intervention. She focuses
+on bridging the gap between what AI agents can do individually and what reliable,
+autonomous systems can accomplish over time.
 
   </div>
 </div>
